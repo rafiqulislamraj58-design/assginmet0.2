@@ -9,3 +9,39 @@ body{
     background-color: #050505;
     font-family: "Inter", sans-serif;
 }
+.logo{
+    color: white;
+    font-size: 30px;
+}
+.ul{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    margin-left: 5px;
+}
+ul{
+   display: flex;
+   gap: 20px;
+   list-style: none;
+    
+}
+.navcontaienr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 8px;
+}
+.btns{
+    padding: 15px 20px;
+    background-color: #1A1A1A;
+    color: white;
+    font-size: 15px;
+    font: bold;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.btns:hover{
+    background-color: white;
+    color: #050505;
+}
