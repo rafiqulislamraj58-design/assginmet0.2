@@ -24,7 +24,10 @@ ul{
    gap: 20px;
    list-style: none;
     
+  
+    
 }
+
 .navcontaienr{
     display: flex;
     align-items: center;
@@ -44,4 +47,78 @@ ul{
 .btns:hover{
     background-color: white;
     color: #050505;
+}
+.heading{
+    color: white;
+    font-size: 110px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+}
+.btn1{
+    background-color: #1A1A1A;
+    color: white;
+    padding: 15px 18px;
+    border: none;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+
+}
+.btn1-active{
+    background-color: #FF5A1F;
+     padding: 15px 18px;
+    border: none;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    color: white;
+
+}
+.btn1:hover{
+    background-color: #FF5A1F;
+}
+.btnsection{
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.card-container{
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.card{
+    border-radius: 8px;
+    background-color: #1A1A1A;
+     padding: 20px;
+}
+.btn3{
+    background-color: #f89462 ;
+    color: #FF5A1F;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 15px;
+
+}
+.headings{
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+}
+.container{
+    margin-top: 5px;
+}
+.parabotom{
+    color: grey;
+    font-size: 14px;
+    margin-top: 10px;
 }
